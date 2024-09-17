@@ -1,13 +1,13 @@
 spring:
   datasource:
-  url: jdbc:postgresql://128.199.199.32:5432/microservices_db
-  username: postgres
-  password: Pheaktra@8899
-jpa:
-  hibernate:
-    ddl-auto: create-drop
-  show-sql: true
-  properties:
+    url: jdbc:postgresql://128.199.199.32:5432/microservices_db
+    username: postgres
+    password: Pheaktra@8899
+  jpa:
     hibernate:
-      format_sql: true
-      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
