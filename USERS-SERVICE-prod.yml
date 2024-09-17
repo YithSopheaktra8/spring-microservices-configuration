@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${postgres_url}
+    username: ${postgres_username}
+    password: ${postgres_password}
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
