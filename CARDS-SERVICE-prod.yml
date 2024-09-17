@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://128.199.199.32:5432/microservices_db
-    username: postgres
-    password: Pheaktra@8899
+    username: ${postgres_username}
+    password: ${postgres_password}
   jpa:
     hibernate:
       ddl-auto: create-drop
