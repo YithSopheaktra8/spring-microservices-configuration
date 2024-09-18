@@ -12,4 +12,4 @@ spring:
         format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
 owner:
-  name: ok
+  name: tra
